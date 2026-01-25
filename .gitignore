@@ -1,0 +1,18 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# misc
+.DS_Store
+*.local
+
+# editors
+.idea/
+.vscode/
+!.vscode/extensions.json
+
+# caches
+.cache/
+.temp/
+
+# logs
+logs/
+*.log
