@@ -9,10 +9,10 @@ class Xh < Formula
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://ghfast.top/https://github.com/ducaale/xh/releases/download/v0.25.3/xh-v0.25.3-x86_64-apple-darwin.tar.gz"
+    url "https://gh-proxy.com/https://github.com/ducaale/xh/releases/download/v0.25.3/xh-v0.25.3-x86_64-apple-darwin.tar.gz"
     sha256 "ef0bd8fe2752abd84202d0b0ac5d4943712ce3c464d70a679b140ca2a0a475cf"
   elsif Hardware::CPU.arm?
-    url "https://ghfast.top/https://github.com/ducaale/xh/releases/download/v0.25.3/xh-v0.25.3-aarch64-apple-darwin.tar.gz"
+    url "https://gh-proxy.com/https://github.com/ducaale/xh/releases/download/v0.25.3/xh-v0.25.3-aarch64-apple-darwin.tar.gz"
     sha256 "3886af1df744a44f6f8da37d51e3f733c14b35aeb3f46828ee528970ad708951"
   end
 

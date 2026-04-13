@@ -9,10 +9,10 @@ class Yq < Formula
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://ghfast.top/https://github.com/mikefarah/yq/releases/download/v4.50.1/yq_darwin_amd64.tar.gz"
+    url "https://gh-proxy.com/https://github.com/mikefarah/yq/releases/download/v4.50.1/yq_darwin_amd64.tar.gz"
     sha256 "315a93772f66614f17dcbfe5dedf77b4ed6a210490f4ea7d1f730133f4e40143"
   elsif Hardware::CPU.arm?
-    url "https://ghfast.top/https://github.com/mikefarah/yq/releases/download/v4.50.1/yq_darwin_arm64.tar.gz"
+    url "https://gh-proxy.com/https://github.com/mikefarah/yq/releases/download/v4.50.1/yq_darwin_arm64.tar.gz"
     sha256 "dffadc64fd515f5fbe31e8c131e02536dbd288188acf077fb4aa19fe94b727d0"
   end
 

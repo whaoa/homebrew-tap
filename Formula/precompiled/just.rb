@@ -9,10 +9,10 @@ class Just < Formula
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://ghfast.top/https://github.com/casey/just/releases/download/1.46.0/just-1.46.0-x86_64-apple-darwin.tar.gz"
+    url "https://gh-proxy.com/https://github.com/casey/just/releases/download/1.46.0/just-1.46.0-x86_64-apple-darwin.tar.gz"
     sha256 "ec54dd60ac876261b7318f1852ef9c0319fede1e5a73c14f56d908a8edf595b8"
   elsif Hardware::CPU.arm?
-    url "https://ghfast.top/https://github.com/casey/just/releases/download/1.46.0/just-1.46.0-aarch64-apple-darwin.tar.gz"
+    url "https://gh-proxy.com/https://github.com/casey/just/releases/download/1.46.0/just-1.46.0-aarch64-apple-darwin.tar.gz"
     sha256 "438eaf6468a115aa7db93e501cc7e3272f453f6b7083be3863adfab546b23358"
   end
 

@@ -4,10 +4,10 @@
 class Rbenv < Formula
   desc "Ruby version manager"
   homepage "https://rbenv.org"
-  url "https://ghfast.top/https://github.com/rbenv/rbenv/archive/refs/tags/v1.3.2.tar.gz"
+  url "https://gh-proxy.com/https://github.com/rbenv/rbenv/archive/refs/tags/v1.3.2.tar.gz"
   sha256 "e2104f6472d7a8477409c46d4de39562b4d01899148a3dbed73c1d99a0b4bb2a"
   license "MIT"
-  head "https://ghfast.top/https://github.com/rbenv/rbenv.git", branch: "master"
+  head "https://gh-proxy.com/https://github.com/rbenv/rbenv.git", branch: "master"
 
   bottle do
     sha256 cellar: :any_skip_relocation, all: "8158fb1f059c1316523b2cc9074c5c041b3944828dc3b76cb032f893e754f013"

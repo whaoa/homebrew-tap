@@ -9,10 +9,10 @@ class Lsd < Formula
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://ghfast.top/https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd-v1.2.0-x86_64-apple-darwin.tar.gz"
+    url "https://gh-proxy.com/https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd-v1.2.0-x86_64-apple-darwin.tar.gz"
     sha256 "00d3c50551b270bbdf7da97816e5ba7f5fd10294cd310165f7f8b5523e738b9c"
   elsif Hardware::CPU.arm?
-    url "https://ghfast.top/https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd-v1.2.0-aarch64-apple-darwin.tar.gz"
+    url "https://gh-proxy.com/https://github.com/lsd-rs/lsd/releases/download/v1.2.0/lsd-v1.2.0-aarch64-apple-darwin.tar.gz"
     sha256 "9e34a5d392ff913302098aad0543dafa1883c531eaf229b82f086c3fca675e3e"
   end
 

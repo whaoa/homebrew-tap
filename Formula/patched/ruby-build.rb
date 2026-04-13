@@ -7,10 +7,10 @@
 class RubyBuild < Formula
   desc "Install various Ruby versions and implementations"
   homepage "https://rbenv.org/man/ruby-build.1"
-  url "https://ghfast.top/https://github.com/rbenv/ruby-build/archive/refs/tags/v20260121.tar.gz"
+  url "https://gh-proxy.com/https://github.com/rbenv/ruby-build/archive/refs/tags/v20260121.tar.gz"
   sha256 "18589f7cdff5f10db3ccdce2a05ef8fb2c07b29e17d275670754123a61555ee0"
   license "MIT"
-  head "https://ghfast.top/https://github.com/rbenv/ruby-build.git", branch: "master"
+  head "https://gh-proxy.com/https://github.com/rbenv/ruby-build.git", branch: "master"
 
   no_autobump! because: :requires_manual_review
 

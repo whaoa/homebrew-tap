@@ -9,10 +9,10 @@ class Fastfetch < Formula
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://ghfast.top/https://github.com/fastfetch-cli/fastfetch/releases/download/2.58.0/fastfetch-macos-amd64.tar.gz"
+    url "https://gh-proxy.com/https://github.com/fastfetch-cli/fastfetch/releases/download/2.58.0/fastfetch-macos-amd64.tar.gz"
     sha256 "71e330959d9ad38d9391406ca1f9e1d56b38fed22c31f74719ba2aa39fbb602d"
   elsif Hardware::CPU.arm?
-    url "https://ghfast.top/https://github.com/fastfetch-cli/fastfetch/releases/download/2.58.0/fastfetch-macos-aarch64.tar.gz"
+    url "https://gh-proxy.com/https://github.com/fastfetch-cli/fastfetch/releases/download/2.58.0/fastfetch-macos-aarch64.tar.gz"
     sha256 "b106964696e4c79980313ef3e81dc5c1ac1d9fc9d8e0a1077f95593f3afcea1f"
   end
 

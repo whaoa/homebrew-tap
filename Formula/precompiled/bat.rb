@@ -9,10 +9,10 @@ class Bat < Formula
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://ghfast.top/https://github.com/sharkdp/bat/releases/download/v0.26.1/bat-v0.26.1-x86_64-apple-darwin.tar.gz"
+    url "https://gh-proxy.com/https://github.com/sharkdp/bat/releases/download/v0.26.1/bat-v0.26.1-x86_64-apple-darwin.tar.gz"
     sha256 "830d63b0bba1fa040542ec569e3cf77f60d3356b9de75116a344b061e0894245"
   elsif Hardware::CPU.arm?
-    url "https://ghfast.top/https://github.com/sharkdp/bat/releases/download/v0.26.1/bat-v0.26.1-aarch64-apple-darwin.tar.gz"
+    url "https://gh-proxy.com/https://github.com/sharkdp/bat/releases/download/v0.26.1/bat-v0.26.1-aarch64-apple-darwin.tar.gz"
     sha256 "e30beff26779c9bf60bb541e1d79046250cb74378f2757f8eb250afddb19e114"
   end
 

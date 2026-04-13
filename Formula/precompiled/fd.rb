@@ -20,10 +20,10 @@ class Fd < Formula
   end
 
   if Hardware::CPU.intel?
-    url "https://ghfast.top/https://github.com/sharkdp/fd/releases/download/v10.3.0/fd-v10.3.0-x86_64-apple-darwin.tar.gz"
+    url "https://gh-proxy.com/https://github.com/sharkdp/fd/releases/download/v10.3.0/fd-v10.3.0-x86_64-apple-darwin.tar.gz"
     sha256 "50d30f13fe3d5914b14c4fff5abcbd4d0cdab4b855970a6956f4f006c17117a3"
   elsif Hardware::CPU.arm?
-    url "https://ghfast.top/https://github.com/sharkdp/fd/releases/download/v10.3.0/fd-v10.3.0-aarch64-apple-darwin.tar.gz"
+    url "https://gh-proxy.com/https://github.com/sharkdp/fd/releases/download/v10.3.0/fd-v10.3.0-aarch64-apple-darwin.tar.gz"
     sha256 "0570263812089120bc2a5d84f9e65cd0c25e4a4d724c80075c357239c74ae904"
   end
 

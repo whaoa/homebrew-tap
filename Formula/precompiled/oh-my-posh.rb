@@ -9,10 +9,10 @@ class OhMyPosh < Formula
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://ghfast.top/https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.1.0/posh-darwin-amd64", using: :nounzip
+    url "https://gh-proxy.com/https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.1.0/posh-darwin-amd64", using: :nounzip
     sha256 "b03a429a4415535b9fbeb0256ff0944bbc1205ed24d3dfafe43cac46396e5aaa"
   elsif Hardware::CPU.arm?
-    url "https://ghfast.top/https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.1.0/posh-darwin-arm64", using: :nounzip
+    url "https://gh-proxy.com/https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.1.0/posh-darwin-arm64", using: :nounzip
     sha256 "090e5e39302b98e4995a2856c337c41dc938334ef9c50fc007e1ed9d26773c38"
   end
 

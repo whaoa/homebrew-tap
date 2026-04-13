@@ -17,7 +17,7 @@ class Fnm < Formula
     sha256 cellar: :any_skip_relocation, ventura:       "a64ba998422c590b865e0a4f22f1b907b5696e6c1d7559f07b0329252a83d6c0"
   end
 
-  url "https://ghfast.top/https://github.com/Schniz/fnm/releases/download/v1.38.1/fnm-macos.zip"
+  url "https://gh-proxy.com/https://github.com/Schniz/fnm/releases/download/v1.38.1/fnm-macos.zip"
   sha256 "80deb3db3db45598f25aea594c10936a7658f70826104fe37e33b4072a5e11f9"
 
   def install

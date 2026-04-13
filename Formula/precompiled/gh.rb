@@ -9,10 +9,10 @@ class Gh < Formula
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://ghfast.top/https://github.com/cli/cli/releases/download/v2.86.0/gh_2.86.0_macOS_amd64.zip"
+    url "https://gh-proxy.com/https://github.com/cli/cli/releases/download/v2.86.0/gh_2.86.0_macOS_amd64.zip"
     sha256 "ced7094d05702eb54a63542abd8a1dc570b7e5ae94951844eb1626ba74bc2c60"
   elsif Hardware::CPU.arm?
-    url "https://ghfast.top/https://github.com/cli/cli/releases/download/v2.86.0/gh_2.86.0_macOS_arm64.zip"
+    url "https://gh-proxy.com/https://github.com/cli/cli/releases/download/v2.86.0/gh_2.86.0_macOS_arm64.zip"
     sha256 "bde753978a352c5ae6c4abec47334d516e82807af20c9dbbd45507a5a0aedaaa"
   end
 
