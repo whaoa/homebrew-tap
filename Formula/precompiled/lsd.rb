@@ -1,4 +1,5 @@
 # References: https://github.com/Homebrew/homebrew-core/blob/d1828e15baf4350467cac0b53050ad2d337229ed/Formula/l/lsd.rb
+# @repo https://github.com/lsd-rs/lsd
 
 class Lsd < Formula
   desc "Clone of ls with colorful output, file type icons, and more"

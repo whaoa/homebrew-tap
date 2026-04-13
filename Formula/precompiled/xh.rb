@@ -1,4 +1,5 @@
 # References: https://github.com/Homebrew/homebrew-core/blob/d1828e15baf4350467cac0b53050ad2d337229ed/Formula/x/xh.rb
+# @repo https://github.com/ducaale/xh
 
 class Xh < Formula
   desc "Friendly and fast tool for sending HTTP requests"

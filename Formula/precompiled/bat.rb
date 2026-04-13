@@ -1,4 +1,5 @@
 # References: https://github.com/Homebrew/homebrew-core/blob/d1828e15baf4350467cac0b53050ad2d337229ed/Formula/b/bat.rb
+# @repo https://github.com/sharkdp/bat
 
 class Bat < Formula
   desc "Clone of cat(1) with syntax highlighting and Git integration"

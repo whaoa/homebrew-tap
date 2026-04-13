@@ -1,4 +1,6 @@
 # References: https://github.com/Homebrew/homebrew-core/blob/d1828e15baf4350467cac0b53050ad2d337229ed/Formula/f/fd.rb
+# @repo https://github.com/sharkdp/fd
+# @archived
 
 class Fd < Formula
   desc "Simple, fast and user-friendly alternative to find"

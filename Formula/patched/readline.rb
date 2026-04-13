@@ -1,4 +1,5 @@
 # References: https://github.com/Homebrew/homebrew-core/blob/ef3edc6f38497befc507b975e79a7fcea792c438/Formula/r/readline.rb
+# @archived
 # @patched remap the dependencies to this tap
 
 # For those packages:

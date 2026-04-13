@@ -7,15 +7,14 @@
 class RubyBuild < Formula
   desc "Install various Ruby versions and implementations"
   homepage "https://rbenv.org/man/ruby-build.1"
-  url "https://gh-proxy.com/https://github.com/rbenv/ruby-build/archive/refs/tags/v20260121.tar.gz"
-  sha256 "18589f7cdff5f10db3ccdce2a05ef8fb2c07b29e17d275670754123a61555ee0"
+  url "https://gh-proxy.com/https://github.com/rbenv/ruby-build/archive/refs/tags/v20260412.tar.gz"
+  sha256 "7215fbadd7e57d9fa1b6939f478e50bb6929e9044226a50f405962c7aeb0c969"
   license "MIT"
+  compatibility_version 1
   head "https://gh-proxy.com/https://github.com/rbenv/ruby-build.git", branch: "master"
 
-  no_autobump! because: :requires_manual_review
-
   bottle do
-    sha256 cellar: :any_skip_relocation, all: "2c82d5f8a4840ff6560781852a9ba1fad5fc69b6eed4a30c7df6ec22ccc3a674"
+    sha256 cellar: :any_skip_relocation, all: "7906fda7fe12636225bd5a349c9753c5705d841685ac81514a568e3931a0beb3"
   end
 
   depends_on "autoconf"

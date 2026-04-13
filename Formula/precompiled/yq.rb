@@ -1,19 +1,20 @@
 # References: https://github.com/Homebrew/homebrew-core/blob/d89a759a2b2e3bfd35c1dc39eb4aa549dc14f078/Formula/y/yq.rb
+# @repo https://github.com/mikefarah/yq
 
 class Yq < Formula
   desc "Process YAML, JSON, XML, CSV and properties documents from the CLI"
   homepage "https://github.com/mikefarah/yq"
   license "MIT"
-  version "4.50.1"
+  version "4.52.5"
 
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://gh-proxy.com/https://github.com/mikefarah/yq/releases/download/v4.50.1/yq_darwin_amd64.tar.gz"
-    sha256 "315a93772f66614f17dcbfe5dedf77b4ed6a210490f4ea7d1f730133f4e40143"
+    url "https://gh-proxy.com/https://github.com/mikefarah/yq/releases/download/v4.52.5/yq_darwin_amd64.tar.gz"
+    sha256 "672029a24f3038f29fe5fb5a15d600c00ab6affbd5a92e880d3319d629fdee9e"
   elsif Hardware::CPU.arm?
-    url "https://gh-proxy.com/https://github.com/mikefarah/yq/releases/download/v4.50.1/yq_darwin_arm64.tar.gz"
-    sha256 "dffadc64fd515f5fbe31e8c131e02536dbd288188acf077fb4aa19fe94b727d0"
+    url "https://gh-proxy.com/https://github.com/mikefarah/yq/releases/download/v4.52.5/yq_darwin_arm64.tar.gz"
+    sha256 "4613600ee3416000a223f28b5323d3f003ee5bb4c18c5fa916450d31d686aecb"
   end
 
   def install

@@ -4,16 +4,16 @@ class Go < Formula
   desc "Open source programming language to build simple/reliable/efficient software"
   homepage "https://go.dev/"
   license "BSD-3-Clause"
-  version "1.25.6"
+  version "1.26.2"
 
   depends_on macos: :monterey
 
   if Hardware::CPU.intel?
-    url "https://go.dev/dl/go1.25.6.darwin-amd64.tar.gz"
-    sha256 "e2b5b237f5c262931b8e280ac4b8363f156e19bfad5270c099998932819670b7"
+    url "https://mirrors.aliyun.com/golang/go1.26.2.darwin-amd64.tar.gz"
+    sha256 "bc3f1500d9968c36d705442d90ba91addf9271665033748b82532682e90a7966"
   elsif Hardware::CPU.arm?
-    url "https://go.dev/dl/go1.25.6.darwin-arm64.tar.gz"
-    sha256 "984521ae978a5377c7d782fd2dd953291840d7d3d0bd95781a1f32f16d94a006"
+    url "https://mirrors.aliyun.com/golang/go1.26.2.darwin-arm64.tar.gz"
+    sha256 "32af1522bf3e3ff3975864780a429cc0b41d190ec7bf90faa661d6d64566e7af"
   end
 
   def install
