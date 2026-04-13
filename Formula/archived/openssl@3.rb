@@ -1,4 +1,5 @@
 # References: https://github.com/Homebrew/homebrew-core/blob/a8e8227417f10292d426d1a5be5bee0c781f8304/Formula/o/openssl%403.rb
+# @archived
 
 # For those packages:
 # - rbenv > ruby-build > openssl@3
