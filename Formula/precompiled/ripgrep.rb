@@ -20,10 +20,10 @@ class Ripgrep < Formula
 
   def install
     bin.install "rg"
-    bash_completion.install "complete/rg.bash" => "lsd"
+    bash_completion.install "complete/rg.bash"
     fish_completion.install "complete/rg.fish"
     zsh_completion.install "complete/_rg"
-    pwsh_completion.install "complete/rg.ps1"
+    pwsh_completion.install "complete/_rg.ps1"
     man1.install "doc/rg.1"
   end
 
