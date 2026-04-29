@@ -11,10 +11,10 @@ class Fastfetch < Formula
 
   if Hardware::CPU.intel?
     url "https://gh-proxy.com/https://github.com/fastfetch-cli/fastfetch/releases/download/2.61.0/fastfetch-macos-amd64.tar.gz"
-    sha256 "d5b463a174f3965382c3e8b9ad7790fe12137c300b388ba566c275f8844b6043"
+    sha256 "f6b96f24b339b9d28fd3cc5a64995376966b070aa52b5eb33f15963019bca9e6"
   elsif Hardware::CPU.arm?
     url "https://gh-proxy.com/https://github.com/fastfetch-cli/fastfetch/releases/download/2.61.0/fastfetch-macos-aarch64.tar.gz"
-    sha256 "f6b96f24b339b9d28fd3cc5a64995376966b070aa52b5eb33f15963019bca9e6"
+    sha256 "d5b463a174f3965382c3e8b9ad7790fe12137c300b388ba566c275f8844b6043"
   end
 
   def install
