@@ -1,4 +1,4 @@
-# https://github.com/Homebrew/homebrew-core/blob/4ca1c3e4e7e24fcd48db0028729ac21ab1211c83/Formula/o/oha.rb
+# References: https://github.com/Homebrew/homebrew-core/blob/4ca1c3e4e7e24fcd48db0028729ac21ab1211c83/Formula/o/oha.rb
 # @repo https://github.com/hatoo/oha
 
 class Oha < Formula
