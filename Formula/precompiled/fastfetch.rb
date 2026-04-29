@@ -5,16 +5,16 @@ class Fastfetch < Formula
   desc "Like neofetch, but much faster because written mostly in C"
   homepage "https://github.com/fastfetch-cli/fastfetch"
   license "MIT"
-  version "2.61.0"
+  version "2.62.1"
 
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://gh-proxy.com/https://github.com/fastfetch-cli/fastfetch/releases/download/2.61.0/fastfetch-macos-amd64.tar.gz"
-    sha256 "f6b96f24b339b9d28fd3cc5a64995376966b070aa52b5eb33f15963019bca9e6"
+    url "https://gh-proxy.com/https://github.com/fastfetch-cli/fastfetch/releases/download/2.62.1/fastfetch-macos-amd64.tar.gz"
+    sha256 "742a6daddcbee5682904824eed438b96676190139d58cb6bdabdcca9a07ae0d0"
   elsif Hardware::CPU.arm?
-    url "https://gh-proxy.com/https://github.com/fastfetch-cli/fastfetch/releases/download/2.61.0/fastfetch-macos-aarch64.tar.gz"
-    sha256 "d5b463a174f3965382c3e8b9ad7790fe12137c300b388ba566c275f8844b6043"
+    url "https://gh-proxy.com/https://github.com/fastfetch-cli/fastfetch/releases/download/2.62.1/fastfetch-macos-aarch64.tar.gz"
+    sha256 "751f61d5c60b21c4a2f88ac5bf295ed3ff42ba7d3333bc7f08d26d2d5d3455c0"
   end
 
   def install
