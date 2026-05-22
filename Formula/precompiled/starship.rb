@@ -5,16 +5,16 @@ class Starship < Formula
   desc "Cross-shell prompt for astronauts"
   homepage "https://starship.rs/"
   license "ISC"
-  version "1.24.2"
+  version "1.25.1"
 
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://gh-proxy.com/https://github.com/starship/starship/releases/download/v1.24.2/starship-x86_64-apple-darwin.tar.gz"
-    sha256 "237beb10cc970c4361536e9f9f434dfed755f8282c5cd951b6a7e3fcbda8e779"
+    url "https://gh-proxy.com/https://github.com/starship/starship/releases/download/v1.25.1/starship-x86_64-apple-darwin.tar.gz"
+    sha256 "f86fbe7a3b9f262bcf34ca61e9e996243da511c5500dcd81a1e4daa542869276"
   elsif Hardware::CPU.arm?
-    url "https://gh-proxy.com/https://github.com/starship/starship/releases/download/v1.24.2/starship-aarch64-apple-darwin.tar.gz"
-    sha256 "d3a0da21374962625a2ee992110979bc1fa33424d7b6aea58a70405e26544fd9"
+    url "https://gh-proxy.com/https://github.com/starship/starship/releases/download/v1.25.1/starship-aarch64-apple-darwin.tar.gz"
+    sha256 "1062a2363489b9335529b83204472f02633c08fc3609f1b325be5eba36feb631"
   end
 
   def install
