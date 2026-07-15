@@ -5,23 +5,23 @@ class Ipatool < Formula
   desc "CLI tool for searching and downloading app packages from the iOS App Store"
   homepage "https://github.com/majd/ipatool"
   license "MIT"
-  version "2.3.0"
+  version "2.3.1"
 
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://gh-proxy.com/https://github.com/majd/ipatool/releases/download/v2.3.0/ipatool-2.3.0-macos-amd64.tar.gz"
-    sha256 "e4386e117cb12e22b41f025b2cce35126a8eb33f4dc6dca6717cfb9d24cec069"
+    url "https://gh-proxy.com/https://github.com/majd/ipatool/releases/download/v2.3.1/ipatool-2.3.1-macos-amd64.tar.gz"
+    sha256 "43a4b0206af94fab2e4a4bf344ff16ac3825b6c733692fcfc0cfd81af93d9df3"
   elsif Hardware::CPU.arm?
-    url "https://gh-proxy.com/https://github.com/majd/ipatool/releases/download/v2.3.0/ipatool-2.3.0-macos-arm64.tar.gz"
-    sha256 "440a06010073de66296e0cc51387c4c8629f52608bfe2527e5fdd1293d27d3c3"
+    url "https://gh-proxy.com/https://github.com/majd/ipatool/releases/download/v2.3.1/ipatool-2.3.1-macos-arm64.tar.gz"
+    sha256 "f2e58e9d3ece196654e7b9dfcc2748cfdfbee4c5009c7f3d840640d8a1136500"
   end
 
   def install
     if Hardware::CPU.intel?
-      bin.install "ipatool-2.3.0-macos-amd64" => "ipatool"
+      bin.install "ipatool-2.3.1-macos-amd64" => "ipatool"
     elsif Hardware::CPU.arm?
-      bin.install "ipatool-2.3.0-macos-arm64" => "ipatool"
+      bin.install "ipatool-2.3.1-macos-arm64" => "ipatool"
     end
     generate_completions_from_executable(bin/"ipatool", shell_parameter_format: :cobra)
   end
