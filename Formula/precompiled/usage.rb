@@ -5,13 +5,13 @@ class Usage < Formula
   desc "Tool for working with usage-spec CLIs"
   homepage "https://usage.jdx.dev/"
   license "MIT"
-  version "5.0.0"
+  version "6.12.0"
   compatibility_version 1
 
   depends_on :macos
 
-  url "https://gh-proxy.com/https://github.com/jdx/usage/releases/download/v5.0.0/usage-universal-apple-darwin.tar.gz"
-  sha256 "35f1703ed922486387d499265c9d6c0dbc84b8347e565fb31d54ad23fdff712d"
+  url "https://gh-proxy.com/https://github.com/jdx/usage/releases/download/v6.12.0/usage-universal-apple-darwin.tar.gz"
+  sha256 "1e43be745db2fd81259e2b0e68d689d7f55b93da815f452c2154710f6de6ec52"
 
   def install
     bin.install "usage"
