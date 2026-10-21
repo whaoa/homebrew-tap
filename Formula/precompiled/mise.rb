@@ -5,18 +5,18 @@ class Mise < Formula
   desc "Polyglot runtime manager (asdf rust clone)"
   homepage "https://mise.jdx.dev/"
   license "MIT"
-  version "2026.9.17"
+  version "2026.10.17"
 
   depends_on :macos
 
   depends_on "whaoa/tap/usage"
 
   if Hardware::CPU.intel?
-    url "https://gh-proxy.com/https://github.com/jdx/mise/releases/download/v2026.9.17/mise-v2026.9.17-macos-x64.tar.gz"
-    sha256 "b287fd5edcbe5a488a7b63d88b48ec54b9bfeb2df9862a51ee889009444c6f5f"
+    url "https://gh-proxy.com/https://github.com/jdx/mise/releases/download/v2026.10.17/mise-v2026.10.17-macos-x64.tar.gz"
+    sha256 "e42418100e2f781f9be00b9feaa60378e77551741faececc2bf360992c5410c8"
   elsif Hardware::CPU.arm?
-    url "https://gh-proxy.com/https://github.com/jdx/mise/releases/download/v2026.9.17/mise-v2026.9.17-macos-arm64.tar.gz"
-    sha256 "63deaba3321800014feb6a92f1fed38680edf8deccbe972beebcdae7b67f3172"
+    url "https://gh-proxy.com/https://github.com/jdx/mise/releases/download/v2026.10.17/mise-v2026.10.17-macos-arm64.tar.gz"
+    sha256 "d7c50c1683524a764260986ccc9c41c0de5e1fcd491714b5640b657b76781af6"
   end
 
   def install

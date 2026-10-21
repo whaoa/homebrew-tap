@@ -5,16 +5,16 @@ class Yq < Formula
   desc "Process YAML, JSON, XML, CSV and properties documents from the CLI"
   homepage "https://github.com/mikefarah/yq"
   license "MIT"
-  version "4.52.5"
+  version "4.54.1"
 
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://gh-proxy.com/https://github.com/mikefarah/yq/releases/download/v4.52.5/yq_darwin_amd64.tar.gz"
-    sha256 "672029a24f3038f29fe5fb5a15d600c00ab6affbd5a92e880d3319d629fdee9e"
+    url "https://gh-proxy.com/https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_darwin_amd64.tar.gz"
+    sha256 "b2cc367e9f5491b3b9b191aa19ba3a3163daf99d84f90bc7bd8918010a66e69a"
   elsif Hardware::CPU.arm?
-    url "https://gh-proxy.com/https://github.com/mikefarah/yq/releases/download/v4.52.5/yq_darwin_arm64.tar.gz"
-    sha256 "4613600ee3416000a223f28b5323d3f003ee5bb4c18c5fa916450d31d686aecb"
+    url "https://gh-proxy.com/https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_darwin_arm64.tar.gz"
+    sha256 "60d0c91aa8bf4030d38e80bb05f84c20be2e955f24d62b2e55d15ad643fa7afa"
   end
 
   def install

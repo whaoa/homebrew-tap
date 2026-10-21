@@ -5,16 +5,16 @@ class OhMyPosh < Formula
   desc "Prompt theme engine for any shell"
   homepage "https://ohmyposh.dev"
   license "MIT"
-  version "29.10.0"
+  version "31.9.1"
 
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://gh-proxy.com/https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.10.0/posh-darwin-amd64", using: :nounzip
-    sha256 "817f207bf406b6b71312836b6569ef24398941bfe7a32010398d74ecf84566a7"
+    url "https://gh-proxy.com/https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v31.9.1/posh-darwin-amd64", using: :nounzip
+    sha256 "031969e78794c33a5394f8bb028210fa88e534b44565729f595c32c20f69d38b"
   elsif Hardware::CPU.arm?
-    url "https://gh-proxy.com/https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.10.0/posh-darwin-arm64", using: :nounzip
-    sha256 "4f96de4cf14c083642a78a49686b8ae60eb59b686a117aa4f8e3ec9acdad8ee0"
+    url "https://gh-proxy.com/https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v31.9.1/posh-darwin-arm64", using: :nounzip
+    sha256 "fbe1c3eb65ad9e10311dbb451c82aa9c7926dbc015dc714d02d89d3e5ae4a48d"
   end
 
   def install

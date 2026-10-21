@@ -5,16 +5,16 @@ class Gh < Formula
   desc "GitHub command-line tool"
   homepage "https://cli.github.com/"
   license "MIT"
-  version "2.89.0"
+  version "2.102.1"
 
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://gh-proxy.com/https://github.com/cli/cli/releases/download/v2.89.0/gh_2.89.0_macOS_amd64.zip"
-    sha256 "862e21cac6a71f81e7cd6e5127e3cd344f8537441ad2db94cd208319dd17b6e9"
+    url "https://gh-proxy.com/https://github.com/cli/cli/releases/download/v2.102.1/gh_2.102.1_macOS_amd64.zip"
+    sha256 "91c5fbd493274b545b03ef32a89c2a21238393c0c0b1108210967199b3230d9d"
   elsif Hardware::CPU.arm?
-    url "https://gh-proxy.com/https://github.com/cli/cli/releases/download/v2.89.0/gh_2.89.0_macOS_arm64.zip"
-    sha256 "2423d02ec0a2094898c378703a1b28a5846c08700f87461363857cb8cb3fda94"
+    url "https://gh-proxy.com/https://github.com/cli/cli/releases/download/v2.102.1/gh_2.102.1_macOS_arm64.zip"
+    sha256 "08bfef98b50c553df122bb34ee8dcf415cae7d3b108891488964a0df07aa2aeb"
   end
 
   def install

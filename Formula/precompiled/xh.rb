@@ -5,16 +5,16 @@ class Xh < Formula
   desc "Friendly and fast tool for sending HTTP requests"
   homepage "https://github.com/ducaale/xh"
   license "MIT"
-  version "0.25.3"
+  version "0.26.2"
 
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://gh-proxy.com/https://github.com/ducaale/xh/releases/download/v0.25.3/xh-v0.25.3-x86_64-apple-darwin.tar.gz"
-    sha256 "ef0bd8fe2752abd84202d0b0ac5d4943712ce3c464d70a679b140ca2a0a475cf"
+    url "https://gh-proxy.com/https://github.com/ducaale/xh/releases/download/v0.26.2/xh-v0.26.2-x86_64-apple-darwin.tar.gz"
+    sha256 "1f19ae1a2f411c58bd6943c638472cd5c4179ed019fe4f786e524b27da4c14a2"
   elsif Hardware::CPU.arm?
-    url "https://gh-proxy.com/https://github.com/ducaale/xh/releases/download/v0.25.3/xh-v0.25.3-aarch64-apple-darwin.tar.gz"
-    sha256 "3886af1df744a44f6f8da37d51e3f733c14b35aeb3f46828ee528970ad708951"
+    url "https://gh-proxy.com/https://github.com/ducaale/xh/releases/download/v0.26.2/xh-v0.26.2-aarch64-apple-darwin.tar.gz"
+    sha256 "cc5739d061a8469d0011ca0ab92d4a5cd726cc56f0ef30108953b119f54d0719"
   end
 
   def install

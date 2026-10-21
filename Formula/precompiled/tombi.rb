@@ -5,16 +5,16 @@ class Tombi < Formula
   desc "TOML formatter, linter and language server"
   homepage "https://github.com/tombi-toml/tombi"
   license "MIT"
-  version "1.1.0"
+  version "1.8.9"
 
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://gh-proxy.com/https://github.com/tombi-toml/tombi/releases/download/v1.1.0/tombi-cli-1.1.0-x86_64-apple-darwin.tar.gz"
-    sha256 "0180797ef983cc56d33a0d0c22b46d37ba8b2f5718be494556d4cdec0116591f"
+    url "https://gh-proxy.com/https://github.com/tombi-toml/tombi/releases/download/v1.8.9/tombi-cli-1.8.9-x86_64-apple-darwin.tar.gz"
+    sha256 "c566db7e0d1b98b75ebdbd080d75407140039eb52a7af503e3028e318f01f8f2"
   elsif Hardware::CPU.arm?
-    url "https://gh-proxy.com/https://github.com/tombi-toml/tombi/releases/download/v1.1.0/tombi-cli-1.1.0-aarch64-apple-darwin.tar.gz"
-    sha256 "9adc2c6ac821c758342c12aba18c394f404035483fd41b46a422da38a70e3ad8"
+    url "https://gh-proxy.com/https://github.com/tombi-toml/tombi/releases/download/v1.8.9/tombi-cli-1.8.9-aarch64-apple-darwin.tar.gz"
+    sha256 "287d02319d42d997237cab16a9876c0c116ea654be82f31e19c10c0a24159a60"
   end
 
   def install

@@ -5,16 +5,16 @@ class Zoxide < Formula
   desc "Shell extension to navigate your filesystem faster"
   homepage "https://github.com/ajeetdsouza/zoxide"
   license "MIT"
-  version "0.9.9"
+  version "0.10.0"
 
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://gh-proxy.com/https://github.com/ajeetdsouza/zoxide/releases/download/v0.9.9/zoxide-0.9.9-x86_64-apple-darwin.tar.gz"
-    sha256 "364249cff18354397c72ebb6b8f7358404c051c486e0f2f7a46e36c86c16f8c7"
+    url "https://gh-proxy.com/https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-x86_64-apple-darwin.tar.gz"
+    sha256 "18ab7ae2633ad6e2ab79a4e665cbba1e95b7c872d44523326efb793202451dad"
   elsif Hardware::CPU.arm?
-    url "https://gh-proxy.com/https://github.com/ajeetdsouza/zoxide/releases/download/v0.9.9/zoxide-0.9.9-aarch64-apple-darwin.tar.gz"
-    sha256 "57e733d0436309dae2ed97e46bba43937209395298e1d88812d4e893900cb40a"
+    url "https://gh-proxy.com/https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-aarch64-apple-darwin.tar.gz"
+    sha256 "b55ae6f2f5f23d0a6ccb3bd4eeb2af9c7e0a6556e5255c82100e40305129bbb0"
   end
 
   def install
